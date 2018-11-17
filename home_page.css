@@ -1,0 +1,110 @@
+/*HEADER*/
+.header{
+    box-sizing: border-box;
+}
+
+.slideshow-container{
+    position: relative;
+    margin:auto;
+}
+
+.header .myimages img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.about {
+    padding: 80px 0 80px;
+    text-align: center;
+}
+.about i {
+    height: 200px;
+    width: 200px;
+    font-size: 100px;
+    padding: 50px;
+    border-radius: 50%;
+    background-color: #ff884d;
+    color: #fff;
+}
+.about h1{
+    font-style: normal;
+    font-size: 50px;
+}
+.about h2{
+    font-size: 30px;
+}
+.about hr{
+ display: block;
+    border-top: 2px solid;
+}
+
+.partnership {
+    padding: 80px 0 80px;
+    text-align: center;
+}
+.partnership i {
+    height: 200px;
+    width: 200px;
+    font-size: 100px;
+    padding: 50px;
+    border-radius: 50%;
+    background-color: #ff884d;
+    color: #fff;
+}
+.partnership h1{
+    font-style: normal;
+    font-size: 50px;
+}
+.partnership h2{
+    font-size: 30px;
+}
+.partnership hr{
+ display: block;
+    border-top: 2px solid;
+}
+.donate {
+    padding: 80px 0 80px;
+    text-align: center;
+    background-color:#fff;
+    margin-top: 20px;
+    text-align: center;
+}
+.donate i {
+    height: 200px;
+    width: 200px;
+    font-size: 100px;
+    padding: 50px;
+    border-radius: 50%;
+    background-color: #ff751a;
+    color: #ff751a;
+}
+.donate h1{
+    font-style: normal;
+    font-size: 50px;
+}
+.donate h2{
+    font-size: 30px;
+}
+.donate hr{
+ display: block;
+    border-top: 2px solid;
+}
+.donate button{
+    padding: 30px 50px;
+    width: 250px;
+    margin: 20px;
+}
+.donate .btn:hover{
+    background-color: #ffb380 !important;
+    color: #fff !important;
+    
+}
+.donate .form-control{
+    width: 350px;
+    padding: 0px;
+    margin: center;
+}
