@@ -1,5 +1,6 @@
 /*HEADER*/
 .header{
+    background-color: black;
     box-sizing: border-box;
 }
 
@@ -14,12 +15,15 @@
     margin-right: auto;
     max-width: 1500px;
     height: 500px;
+    padding: 20px;
     border-radius: 50px;
+    border-color: white;
 }
 
 .about {
     padding: 80px 0 80px;
     text-align: center;
+    color: orange;
 }
 .about i {
     height: 200px;
@@ -41,19 +45,25 @@
  display: block;
     border-top: 2px solid;
 }
-
+.about p{
+    border:10px;
+    border-color: black;
+    font-size: 20px;
+    color: black;
+}
+.about img{
+    height: 450px;
+    width: 250 px;
+}
 .partnership {
     padding: 80px 0 80px;
     text-align: center;
+    color: orange;
 }
-.partnership i {
+.partnership img {
     height: 200px;
-    width: 200px;
-    font-size: 100px;
-    padding: 50px;
+    width: 240px;
     border-radius: 50%;
-    background-color: #ff884d;
-    color: #fff;
 }
 .partnership h1{
     font-style: normal;
@@ -62,11 +72,13 @@
 .partnership h2{
     font-size: 30px;
 }
+
 .partnership hr{
  display: block;
     border-top: 2px solid;
 }
 .donate {
+    color: orange;
     padding: 80px 0 80px;
     text-align: center;
     background-color:#fff;
@@ -108,3 +120,6 @@
     padding: 0px;
     margin: center;
 }
+
+/*Image for background*/
+background-image: url(http://chsie.pbworks.com/f/1303235778/My-Animation.gif);
